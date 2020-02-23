@@ -1,0 +1,56 @@
+body{
+    font-family: $basefont;
+    background-color: $back-color;
+    color: $basecolor;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header{
+    font-family: $headfont;
+    color: $greencolor;
+    font-size: 2em;
+}
+
+.classwork-row{
+    @include work_style;
+}
+
+ul{
+    @include list_look;
+}
+
+.assign{
+    @include assignment;
+    /* unvisited link */
+a:link {
+    @include link_style;
+  }
+  
+  /* visited link */
+  a:visited {
+    @include link_style;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    @include link_style;
+    color: $greencolor;
+    background-color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    @include link_style;
+    color: blue;
+  }
+}
+
+.assign:hover{
+    box-shadow: 0px 0px 10px white;
+}
+
+#git-link{
+    @include git_link;
+}

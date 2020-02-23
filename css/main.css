@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter|Cabin|Domine|Titillium+Web&display=swap");
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-color: rgba(25, 25, 25, 0.9);
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center; }
+
+header {
+  font-family: "Domine", serif;
+  color: rgba(25, 206, 151, 0.96);
+  font-size: 2em; }
+
+.classwork-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5%; }
+
+ul {
+  list-style: none; }
+
+.assign {
+  background-color: rgba(25, 206, 151, 0.96);
+  box-shadow: 0px 0px 15px black;
+  /* unvisited link */
+  /* visited link */
+  /* mouse over link */
+  /* selected link */ }
+  .assign a {
+    display: flex;
+    align-items: center; }
+  .assign a:link {
+    text-decoration: none;
+    color: black;
+    font-size: large; }
+    .assign a:link img {
+      padding-right: 10%; }
+  .assign a:visited {
+    text-decoration: none;
+    color: black;
+    font-size: large; }
+    .assign a:visited img {
+      padding-right: 10%; }
+  .assign a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    color: rgba(25, 206, 151, 0.96);
+    background-color: white; }
+    .assign a:hover img {
+      padding-right: 10%; }
+  .assign a:active {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    color: blue; }
+    .assign a:active img {
+      padding-right: 10%; }
+
+.assign:hover {
+  box-shadow: 0px 0px 10px white; }
+
+#git-link {
+  background-color: rgba(25, 206, 151, 0.96);
+  width: 15%;
+  padding: 1%;
+  margin: 0 auto;
+  /* visited link */
+  /* mouse over link */
+  /* selected link */ }
+  #git-link a:link {
+    text-decoration: none;
+    color: black; }
+  #git-link a:visited {
+    text-decoration: none;
+    color: black; }
+  #git-link a:hover {
+    text-decoration: none;
+    color: rgba(25, 206, 151, 0.96);
+    background-color: white; }
+  #git-link a:active {
+    text-decoration: none;
+    color: blue; }
